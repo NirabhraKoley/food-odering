@@ -3,6 +3,7 @@ import "./App.css";
 import { AppLayout } from "./components/layout/AppLayout";
 import { Success } from "./pages/Success";
 import { Error } from "./pages/Error";
+import { Cart } from "./components/Cart";
 
 function App() {
   const router = createBrowserRouter([
@@ -14,6 +15,10 @@ function App() {
         {
           path: "/success",
           element: <Success />,
+        },
+        {
+          path: "/",
+          element: <Cart />,
         },
       ],
     },
