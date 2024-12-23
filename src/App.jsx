@@ -13,14 +13,14 @@ function App() {
       errorElement: <Error />,
       children: [
         {
-          path: "/success",
-          element: <Success />,
-        },
-        {
           path: "/",
           element: <Cart />,
         },
       ],
+    },
+    {
+      path: "/success",
+      element: <Success />,
     },
   ]);
   return <RouterProvider router={router} />;

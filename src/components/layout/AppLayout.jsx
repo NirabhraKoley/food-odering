@@ -12,7 +12,7 @@ export const AppLayout = () => {
       <CategoryMenu />
       <FoodItems />
       <Outlet />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };
